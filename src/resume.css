@@ -1,0 +1,87 @@
+body {
+    font-family: 'Times New Roman';
+    font-size: 12pt;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.dark-mode {
+    background-color: rgb(26, 26, 26);
+    color: rgb(195, 194, 194) !important;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(5, 13, 245) !important;
+}
+
+.hover-action {
+    z-index: 1;
+    margin-right: 0.5px;
+    margin-top: 1px;
+}
+
+.hover-action:hover {
+    cursor: pointer;
+}
+
+.octicon {
+    z-index: 0;
+    height: 24px;
+    margin-right: 1px;
+    margin-bottom: 1.6px;
+}
+
+.linkedIn {
+    z-index: 0;
+    bottom: 100px !important;
+}
+
+#circleocticon {
+    margin-top: 6px;
+    margin-bottom: 1.5px;
+    background: white;
+    border-radius: 50%;
+    right: 22px;
+    bottom: 55px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: -1;
+}
+
+#circleLinkedIn {
+    margin-top: 6px;
+    margin-bottom: 2px;
+    background: white;
+    border-radius: 50%;
+    right: 22.5px;
+    bottom: 90px;
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    z-index: -1;
+}
+
+.hackerRank {
+    position: absolute;
+    z-index: 0;
+    right: 24px;
+    bottom: 119px;
+}
+
+#circleHackerRank {
+    margin-top: 6px;
+    margin-bottom: 8px;
+    background: white;
+    border-radius: 50%;
+    right: 22.5px;
+    bottom: 120px;
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    z-index: -1;
+}
