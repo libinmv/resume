@@ -5,30 +5,7 @@
     <meta http-equiv="Content-Style-Type" content="text/css" />
     <meta name="generator" content="Aspose.Words for .NET 22.7.0" />
     <title>libinMV</title>
-    <style type="text/css">
-        body {
-            font-family: 'Times New Roman';
-            font-size: 12pt;
-            background-color: rgb(255, 255, 255);
-            color: black;
-        }
-
-        .dark-mode {
-            background-color: rgb(26, 26, 26);
-            color: rgb(195, 194, 194) !important;
-        }
-
-        a:link {
-            text-decoration: none;
-        }
-
-        a:hover {
-            color: rgb(5, 13, 245) !important;
-        }
-        .hover-action:hover {
-            cursor: pointer;
-        }
-    </style>
+    <link rel="stylesheet" href="src/resume.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet"
@@ -49,19 +26,7 @@
                     Muriyil(H),Poothakuzhy P.O Pampady, Kottayam, Kerala, India; Zip Code: 686521</a>
             </p>
         </div>
-        <div class="d-flex justify-content-center">
-            <h2>
-                <a class="text-secondary" href="https://www.linkedin.com/in/libinmathew585/" target="_blank"
-                    rel="noopener noreferrer">Linkedin</a>
-                |
-                <a class="text-secondary" href="https://github.com/libinmv" target="_blank"
-                    rel="noopener noreferrer">GitHub</a>
-                |
-                <a class="text-secondary" href="https://www.hackerrank.com/libin_varghese" target="_blank"
-                    rel="noopener noreferrer">HackerRank</a>
-            </h2>
-        </div>
-        <hr class="bg-dark border-3 border-top border-dark">
+        <hr class="bg-dark border-3 border-top border-secondary">
         <h3 class="text-secondary">EXPERIENCE</h3>
         <div class="row">
             <div class="col"><a class="text-secondary" href="https://fullcontact.com/" target="_blank"
@@ -321,12 +286,10 @@
                             href="https://www.linkedin.com/in/libinmathew585/overlay/experience/1863774415/multiple-media-viewer/?treasuryMediaId=1635493827418"
                             target="_blank" rel="noopener noreferrer">Mentoring Friend Award (November 2021)</a>
                     </li>
-                    <li>
-                        <a class="text-secondary"
+                    <li><a class="text-secondary"
                             href="https://scontent.fcok7-1.fna.fbcdn.net/v/t1.6435-9/67883122_2400969729994516_4239921680874471424_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=3eZJEfI39jEAX9i8eAF&_nc_ht=scontent.fcok7-1.fna&oh=00_AT8rjEy6BOnP0erdKIGYp7JmdBrvC4Jiqvfjcp5KqgfXAw&oe=6319DC72"
                             target="_blank" rel="noopener noreferrer">Featured in the news for Flood Relief
-                            Activities</a>
-                    </li>
+                            Activities</a></li>
                     <li>Delegate of IEEE PES GSC 2020</li>
                     <li>Participated in IEEEXtreme</li>
                     <li>Participated in MLH</li>
@@ -334,36 +297,27 @@
                 </ul>
             </div>
         </div>
-        <div class="fixed-bottom p-4 d-flex flex-row-reverse">
-            <span onclick="toggleTheme(this); toggleDark();" class="material-symbols-outlined hover-action">
+        <div class="fixed-bottom p-4 footer d-flex align-items-end flex-column">
+            <a href="https://www.hackerrank.com/libin_varghese" target="_blank" rel="noopener noreferrer">
+                <img src="src/img/hackerrank.svg" class="hackerRank" height="48" width="26">
+            </a>
+            <div id="circleHackerRank"></div>
+            <a href="https://www.linkedin.com/in/libinmathew585/" target="_blank" rel="noopener noreferrer">
+                <img src="src/img/linkedIn.svg" class="linkedIn" height="48" width="26">
+            </a>
+            <div id="circleLinkedIn"></div>
+            <a href="https://github.com/libinmv" target="_blank" rel="noopener noreferrer">
+                <img src="src/img/github.png" class="octicon">
+            </a>
+            <div id="circleocticon"></div>
+            <span onclick="toggleTheme(this); toggleDark();" class="mt-2 material-symbols-outlined hover-action">
                 dark_mode
             </span>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
             crossorigin="anonymous"></script>
-        <script>
-            var themeFlag = 0; //0 for light and 1 for dark theme
-            function toggleDark() {
-                var element = document.body;
-                element.classList.toggle("dark-mode");
-            }
-            function toggleTheme(x) {
-                if (themeFlag == 0) {
-                    x.innerHTML = `<span class="material-symbols-outlined hover-action">
-                    wb_sunny
-                </span>`;
-                    themeFlag = 1;
-                }
-                else {
-                    x.innerHTML = `<span class="material-symbols-outlined hover-action">
-                    dark_mode
-                </span>`;
-                    themeFlag = 0;
-                }
-
-            }
-        </script>
+        <script src="src/resume.js"></script>
     </div>
 </body>
 
