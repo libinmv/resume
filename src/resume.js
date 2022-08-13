@@ -5,13 +5,13 @@ function toggleDark() {
 }
 function toggleTheme(x) {
     if (themeFlag == 0) {
-        x.innerHTML = `<span class="material-symbols-outlined hover-action">
+        x.innerHTML = `<span class="material-symbols-outlined light-icon">
                     wb_sunny
                 </span>`;
         themeFlag = 1;
     }
     else {
-        x.innerHTML = `<span class="material-symbols-outlined hover-action">
+        x.innerHTML = `<span class="material-symbols-outlined dark-icon">
                     dark_mode
                 </span>`;
         themeFlag = 0;
