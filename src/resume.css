@@ -14,74 +14,33 @@ a:link {
     text-decoration: none;
 }
 
-a:hover {
-    color: rgb(5, 13, 245) !important;
-}
-
-.hover-action {
-    z-index: 1;
-    margin-right: 0.5px;
-    margin-top: 1px;
-}
-
-.hover-action:hover {
+.link_unset {
+    all: unset;
     cursor: pointer;
 }
 
-.octicon {
-    z-index: 0;
-    height: 24px;
-    margin-right: 1px;
-    margin-bottom: 1.6px;
+.no-margin {
+    margin: 0;
 }
 
-.linkedIn {
-    z-index: 0;
-    bottom: 100px !important;
+a:hover {
+    color: rgb(141, 68, 243) !important;
 }
 
-#circleocticon {
-    margin-top: 6px;
-    margin-bottom: 1.5px;
-    background: white;
-    border-radius: 50%;
-    right: 22px;
-    bottom: 55px;
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    z-index: -1;
+i {
+    width: 22px;
+    height: 36px;
+    margin-top: 2px;
+    justify-content: end;
 }
 
-#circleLinkedIn {
-    margin-top: 6px;
-    margin-bottom: 2px;
-    background: white;
-    border-radius: 50%;
-    right: 22.5px;
-    bottom: 90px;
-    width: 30px;
-    height: 30px;
-    position: fixed;
-    z-index: -1;
+
+.dark-icon:hover {
+    cursor: pointer;
+    color: rgb(127, 127, 127);
 }
 
-.hackerRank {
-    position: absolute;
-    z-index: 0;
-    right: 24px;
-    bottom: 119px;
-}
-
-#circleHackerRank {
-    margin-top: 6px;
-    margin-bottom: 8px;
-    background: white;
-    border-radius: 50%;
-    right: 22.5px;
-    bottom: 120px;
-    width: 30px;
-    height: 30px;
-    position: fixed;
-    z-index: -1;
+.light-icon:hover {
+    cursor: pointer;
+    color: rgb(255, 174, 35);
 }
