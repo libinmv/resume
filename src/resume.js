@@ -28,5 +28,11 @@ document.getElementById('printButton').addEventListener('click', function () {
         printUnComments[i].style.display = "block";
     }
     window.print();
+    for (let i = 0; i < printComments.length; i++) {
+        printComments[i].style.display = "block";
+    }
+    for (let i = 0; i < printUnComments.length; i++) {
+        printUnComments[i].style.display = "none";
+    }
 });
 
