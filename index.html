@@ -23,12 +23,12 @@
         <div class="d-flex justify-content-center">
             <p style="text-align: center;">
                 <!-- Comment below code while creating PDF -->
-                <i class="fa-solid fa-location-dot"></i>
+                <!-- <i class="fa-solid fa-location-dot"></i>
                 <a class="link_unset" href="https://goo.gl/maps/n5uB3GsSZRBQU9yE9" target="_blank"
                     rel="noopener noreferrer">Madappattu Naduvile
-                    Muriyil(H), Poothakuzhy P.O Pampady, Kottayam, Kerala, India. Zip Code: 686521</a>
+                    Muriyil(H), Poothakuzhy P.O Pampady, Kottayam, Kerala, India. Zip Code: 686521</a> -->
                 <!-- Uncomment below code while creating PDF -->
-                <!-- <a href="mailto:libinmathew585@outlook.com" class="text-danger">
+                <a href="mailto:libinmathew585@outlook.com" class="text-danger">
                     <i class="fa-solid fa-envelope fa-lg"></i>
                     libinmathew585@outlook.com
                 </a>
@@ -43,7 +43,7 @@
                     rel="noopener noreferrer">
                     <i class="fa-brands fa-github fa-lg"></i>
                     libinmv
-                </a> -->
+                </a>
                 <br>
                 <i class="fa-solid fa-phone ms-2"></i>
                 <a class="link_unset" href="tel:+918281989880">+918281989880</a> |
@@ -135,7 +135,7 @@
                 </ul>
             </div>
         </div>
-        <div class="row">
+        <div class="row print-comment">
             <div class="col"><a class="text-secondary" href="https://cecieee.org/" target="_blank"
                     rel="noopener noreferrer">IEEE SB CEC</a> | PES SBC Chairperson, College of Engineering Chengannur
             </div>
@@ -144,7 +144,7 @@
                 <p class="text-secondary me-1">Chengannur |</p>
             </div>
         </div>
-        <div class="row mb-2">
+        <div class="row mb-2 print-comment">
             <div>
                 <ul>
                     <li>Coordinated the activities and managed a 3 member Executive Committee of the largest Student
@@ -157,7 +157,7 @@
                 </ul>
             </div>
         </div>
-        <div class="row">
+        <div class="row print-comment">
             <div class="col"><a class="text-secondary" href="https://cecieee.org/" target="_blank"
                     rel="noopener noreferrer">IEEE SB CEC</a> | PES SBC Vice Chairperson, College of Engineering
                 Chengannur
@@ -167,7 +167,7 @@
                 <p class="text-secondary me-1">Chengannur |</p>
             </div>
         </div>
-        <div class="row mb-2">
+        <div class="row mb-2 print-comment">
             <div>
                 <ul>
                     <li>Coordinated the activities of IEEE PES Student Branch Chapter, College of Engineering
@@ -183,7 +183,7 @@
                 </ul>
             </div>
         </div>
-        <div class="row">
+        <div class="row print-comment">
             <div class="col-8"><a class="text-secondary" href="https://ieee-link.org/" target="_blank"
                     rel="noopener noreferrer">IEEE LINK</a> | Online Competitions Coordinator
             </div>
@@ -192,7 +192,7 @@
                 <p class="text-secondary me-1">Kochi |</p>
             </div>
         </div>
-        <div class="row mb-2">
+        <div class="row mb-2 print-comment">
             <div>
                 <ul>
                     <li>Organised the LINK Online Competitions during the timeframe and managed a 7 member Executive
@@ -381,30 +381,34 @@
             </div>
         </div>
         <!-- Comment below code block till next comment while creating PDF -->
-        <div class="fixed-bottom p-4 d-flex align-items-end flex-column" style="width: 5%; left:revert;">
-            <a href="mailto:libinmathew585@outlook.com" class="text-danger">
-                <i class="fa-solid fa-envelope fa-lg"></i>
+        <div class="fixed-bottom p-4 d-flex align-items-end flex-column print-comment" style="width: 5%; left:revert;">
+            <a href="mailto:libinmathew585@outlook.com" class="text-danger print-comment">
+                <i class="fa-solid fa-envelope fa-lg print-comment"></i>
             </a>
             <a href="https://www.linkedin.com/in/libinmathew585/" target="_blank" rel="noopener noreferrer"
-                class="text-primary">
-                <i class="fa-brands fa-linkedin-in fa-lg"></i>
+                class="text-primary print-comment">
+                <i class="fa-brands fa-linkedin-in fa-lg print-comment"></i>
             </a>
-            <a href="https://github.com/libinmv" class="link_unset" target="_blank" rel="noopener noreferrer">
-                <i class="fa-brands fa-github fa-lg"></i>
+            <a id="printButton" target="_blank" rel="noopener noreferrer"
+                class="text-primary print-comment">
+                <i class="fa fa-print fa-lg print-comment"></i>
             </a>
-            <div class="no-margin" onclick="toggleTheme(this); toggleDark();">
-                <span class="material-symbols-outlined no-margin dark-icon">
+            <a href="https://github.com/libinmv" class="link_unset print-comment" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github fa-lg print-comment"></i>
+            </a>
+            <div class="no-margin print-comment" onclick="toggleTheme(this); toggleDark();">
+                <span class="material-symbols-outlined no-margin dark-icon print-comment">
                     dark_mode
                 </span>
             </div>
         </div>
         <!-- Uncomment below code block while creating PDF -->
-        <!-- <center>
-            <p>To view this PDF as a website visit
+        <center class="print-uncomment">
+            <p class="print-uncomment">To view this PDF as a website visit
                 <a href="https://resume-libinmv.vercel.app/" target="_blank" rel="noopener noreferrer"
-                    class="text-primary">resume.html</a>
+                    class="text-primary print-uncomment">resume.html</a>
             </p>
-        </center> -->
+        </center>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"

@@ -18,3 +18,15 @@ function toggleTheme(x) {
     }
 
 }
+document.getElementById('printButton').addEventListener('click', function () {
+    const printComments = document.getElementsByClassName("print-comment");
+    for (let i = 0; i < printComments.length; i++) {
+        printComments[i].style.display = "none";
+    }
+    const printUnComments = document.getElementsByClassName("print-uncomment");
+    for (let i = 0; i < printUnComments.length; i++) {
+        printUnComments[i].style.display = "block";
+    }
+    window.print();
+});
+

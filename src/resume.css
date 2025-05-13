@@ -44,3 +44,7 @@ i {
     cursor: pointer;
     color: rgb(255, 174, 35);
 }
+
+.print-uncomment {
+    display: hidden;
+}
